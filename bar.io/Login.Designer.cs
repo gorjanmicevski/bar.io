@@ -30,14 +30,26 @@ namespace bar.io
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(-2, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(670, 393);
             this.panel1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(158, 225);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Login
             // 
@@ -47,6 +59,7 @@ namespace bar.io
             this.Controls.Add(this.panel1);
             this.Name = "Login";
             this.Text = "Login";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -54,5 +67,6 @@ namespace bar.io
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
     }
 }
