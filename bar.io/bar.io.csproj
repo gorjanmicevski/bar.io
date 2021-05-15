@@ -83,5 +83,8 @@
   <ItemGroup>
     <None Include="Resources\urbanista-white-1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -29,24 +29,16 @@ namespace bar.io
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
             this.btnNajavaMenadzer = new System.Windows.Forms.Button();
             this.btnNajavaKelner = new System.Windows.Forms.Button();
             this.btnNajavaSanker = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(-2, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(802, 233);
-            this.panel1.TabIndex = 0;
             // 
             // btnNajavaMenadzer
             // 
             this.btnNajavaMenadzer.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnNajavaMenadzer.Location = new System.Drawing.Point(222, 278);
+            this.btnNajavaMenadzer.Location = new System.Drawing.Point(255, 281);
             this.btnNajavaMenadzer.Name = "btnNajavaMenadzer";
             this.btnNajavaMenadzer.Size = new System.Drawing.Size(312, 66);
             this.btnNajavaMenadzer.TabIndex = 1;
@@ -55,7 +47,7 @@ namespace bar.io
             // 
             // btnNajavaKelner
             // 
-            this.btnNajavaKelner.Location = new System.Drawing.Point(222, 384);
+            this.btnNajavaKelner.Location = new System.Drawing.Point(255, 382);
             this.btnNajavaKelner.Name = "btnNajavaKelner";
             this.btnNajavaKelner.Size = new System.Drawing.Size(312, 66);
             this.btnNajavaKelner.TabIndex = 2;
@@ -64,12 +56,22 @@ namespace bar.io
             // 
             // btnNajavaSanker
             // 
-            this.btnNajavaSanker.Location = new System.Drawing.Point(222, 484);
+            this.btnNajavaSanker.Location = new System.Drawing.Point(255, 484);
             this.btnNajavaSanker.Name = "btnNajavaSanker";
             this.btnNajavaSanker.Size = new System.Drawing.Size(312, 66);
             this.btnNajavaSanker.TabIndex = 3;
             this.btnNajavaSanker.Text = "Најави се како шанкер";
             this.btnNajavaSanker.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackgroundImage = global::bar.io.Properties.Resources.urbanista_white_1;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Location = new System.Drawing.Point(-2, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(802, 233);
+            this.panel1.TabIndex = 0;
             // 
             // Login
             // 
