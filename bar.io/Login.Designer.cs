@@ -33,6 +33,7 @@ namespace bar.io
             this.btnNajavaMenadzer = new System.Windows.Forms.Button();
             this.btnNajavaKelner = new System.Windows.Forms.Button();
             this.btnNajavaSanker = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // panel1
@@ -46,7 +47,7 @@ namespace bar.io
             // btnNajavaMenadzer
             // 
             this.btnNajavaMenadzer.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnNajavaMenadzer.Location = new System.Drawing.Point(222, 278);
+            this.btnNajavaMenadzer.Location = new System.Drawing.Point(222, 281);
             this.btnNajavaMenadzer.Name = "btnNajavaMenadzer";
             this.btnNajavaMenadzer.Size = new System.Drawing.Size(312, 66);
             this.btnNajavaMenadzer.TabIndex = 1;
@@ -71,11 +72,22 @@ namespace bar.io
             this.btnNajavaSanker.Text = "Најави се како шанкер";
             this.btnNajavaSanker.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(608, 281);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(98, 21);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 583);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btnNajavaSanker);
             this.Controls.Add(this.btnNajavaKelner);
             this.Controls.Add(this.btnNajavaMenadzer);
@@ -83,6 +95,7 @@ namespace bar.io
             this.Name = "Login";
             this.Text = "Login";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -92,5 +105,6 @@ namespace bar.io
         private System.Windows.Forms.Button btnNajavaMenadzer;
         private System.Windows.Forms.Button btnNajavaKelner;
         private System.Windows.Forms.Button btnNajavaSanker;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
