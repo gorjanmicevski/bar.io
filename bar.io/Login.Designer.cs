@@ -94,5 +94,6 @@ namespace bar.io
         private System.Windows.Forms.Button btnNajavaMenadzer;
         private System.Windows.Forms.Button btnNajavaKelner;
         private System.Windows.Forms.Button btnNajavaSanker;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
