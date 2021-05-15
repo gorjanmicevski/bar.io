@@ -44,6 +44,7 @@ namespace bar.io
             this.btnNajavaMenadzer.TabIndex = 1;
             this.btnNajavaMenadzer.Text = "Најави се како менаџер";
             this.btnNajavaMenadzer.UseVisualStyleBackColor = true;
+            this.btnNajavaMenadzer.Click += new System.EventHandler(this.btnNajavaMenadzer_Click);
             // 
             // btnNajavaKelner
             // 
@@ -53,6 +54,7 @@ namespace bar.io
             this.btnNajavaKelner.TabIndex = 2;
             this.btnNajavaKelner.Text = "Најави се како келнер";
             this.btnNajavaKelner.UseVisualStyleBackColor = true;
+            this.btnNajavaKelner.Click += new System.EventHandler(this.btnNajavaKelner_Click);
             // 
             // btnNajavaSanker
             // 
