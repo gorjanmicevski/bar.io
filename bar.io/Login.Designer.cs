@@ -30,46 +30,58 @@ namespace bar.io
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel1.SuspendLayout();
+            this.btnNajavaMenadzer = new System.Windows.Forms.Button();
+            this.btnNajavaKelner = new System.Windows.Forms.Button();
+            this.btnNajavaSanker = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(-2, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(670, 393);
+            this.panel1.Size = new System.Drawing.Size(802, 233);
             this.panel1.TabIndex = 0;
             // 
-            // button1
+            // btnNajavaMenadzer
             // 
-            this.button1.Location = new System.Drawing.Point(158, 225);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNajavaMenadzer.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnNajavaMenadzer.Location = new System.Drawing.Point(222, 278);
+            this.btnNajavaMenadzer.Name = "btnNajavaMenadzer";
+            this.btnNajavaMenadzer.Size = new System.Drawing.Size(312, 66);
+            this.btnNajavaMenadzer.TabIndex = 1;
+            this.btnNajavaMenadzer.Text = "Најави се како менаџер";
+            this.btnNajavaMenadzer.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // btnNajavaKelner
             // 
-            this.textBox1.Location = new System.Drawing.Point(408, 120);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.btnNajavaKelner.Location = new System.Drawing.Point(222, 384);
+            this.btnNajavaKelner.Name = "btnNajavaKelner";
+            this.btnNajavaKelner.Size = new System.Drawing.Size(312, 66);
+            this.btnNajavaKelner.TabIndex = 2;
+            this.btnNajavaKelner.Text = "Најави се како келнер";
+            this.btnNajavaKelner.UseVisualStyleBackColor = true;
+            // 
+            // btnNajavaSanker
+            // 
+            this.btnNajavaSanker.Location = new System.Drawing.Point(222, 484);
+            this.btnNajavaSanker.Name = "btnNajavaSanker";
+            this.btnNajavaSanker.Size = new System.Drawing.Size(312, 66);
+            this.btnNajavaSanker.TabIndex = 3;
+            this.btnNajavaSanker.Text = "Најави се како шанкер";
+            this.btnNajavaSanker.UseVisualStyleBackColor = true;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 583);
+            this.Controls.Add(this.btnNajavaSanker);
+            this.Controls.Add(this.btnNajavaKelner);
+            this.Controls.Add(this.btnNajavaMenadzer);
             this.Controls.Add(this.panel1);
             this.Name = "Login";
             this.Text = "Login";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -77,7 +89,8 @@ namespace bar.io
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnNajavaMenadzer;
+        private System.Windows.Forms.Button btnNajavaKelner;
+        private System.Windows.Forms.Button btnNajavaSanker;
     }
 }
