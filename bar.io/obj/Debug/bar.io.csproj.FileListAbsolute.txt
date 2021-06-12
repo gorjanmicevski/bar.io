@@ -1,0 +1,120 @@
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\bin\Debug\bar.io.exe.config
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\bin\Debug\bar.io.exe
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\bin\Debug\bar.io.pdb
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.Pocetna.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.Properties.Resources.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.csproj.GenerateResource.cache
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.csproj.CoreCompileInputs.cache
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.exe
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.pdb
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.NajavaKelner.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.NajavaMenadzer.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.NajavaSanker.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\bin\Debug\bar.io.exe.config
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\bin\Debug\bar.io.exe
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\bin\Debug\bar.io.pdb
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.csprojAssemblyReference.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.NajavaKelner.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.NajavaMenadzer.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.NajavaSanker.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.Pocetna.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.Properties.Resources.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.csproj.GenerateResource.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.csproj.CoreCompileInputs.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.exe
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.pdb
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\bin\Debug\bar.io.exe.config
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\bin\Debug\bar.io.exe
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\bin\Debug\bar.io.pdb
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.csprojAssemblyReference.cache
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.NajavaKelner.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.NajavaMenadzer.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.NajavaSanker.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.Pocetna.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.Properties.Resources.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.csproj.GenerateResource.cache
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.csproj.CoreCompileInputs.cache
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.exe
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.pdb
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.PocetnaMenadzer.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\bar.io-main\bar.io\obj\Debug\bar.io.RabotiNaDen.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.csproj.AssemblyReference.cache
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.PocetnaMenadzer.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.RabotiNaDen.resources
+D:\SIIS 4 semestar\Vizuelno programiranje\Proekt\Bario\bar.io\obj\Debug\bar.io.DodadiRezervacija.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.DodadiMasa.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.DodadiNaracka.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.DodadiRezervacija.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.PocetnaKelner.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.PocetnaMenadzer.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.RabotiNaDen.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\bar.io\obj\Debug\bar.io.VnesiLozinkaKelner.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\bin\Debug\bar.io.exe.config
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\bin\Debug\bar.io.exe
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\bin\Debug\bar.io.pdb
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.csprojAssemblyReference.cache
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.DodadiMasa.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.DodadiNaracka.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.DodadiRezervacija.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.NajavaKelner.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.NajavaMenadzer.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.NajavaSanker.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.Pocetna.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.PocetnaKelner.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.PocetnaMenadzer.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.PocetnaSanker.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.Properties.Resources.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.RabotiNaDen.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.VnesiLozinkaKelner.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.csproj.GenerateResource.cache
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.csproj.CoreCompileInputs.cache
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.exe
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.pdb
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.Isporaka.resources
+C:\Users\gtsle\Downloads\bar.io (1)\bar.io\obj\Debug\bar.io.DodadiArtikl.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\bin\Debug\bar.io.exe.config
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\bin\Debug\bar.io.exe
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\bin\Debug\bar.io.pdb
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.csprojAssemblyReference.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.DodadiArtikl.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.DodadiMasa.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.DodadiNaracka.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.DodadiRezervacija.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.Isporaka.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.NajavaKelner.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.NajavaMenadzer.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.NajavaSanker.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.Pocetna.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.PocetnaKelner.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.PocetnaMenadzer.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.PocetnaSanker.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.Properties.Resources.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.RabotiNaDen.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.VnesiLozinkaKelner.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.csproj.GenerateResource.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.csproj.CoreCompileInputs.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.exe
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\posledna\bar.io\obj\Debug\bar.io.pdb
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\bin\Debug\bar.io.exe.config
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\bin\Debug\bar.io.exe
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\bin\Debug\bar.io.pdb
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.csprojAssemblyReference.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.DodadiArtikl.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.DodadiMasa.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.DodadiNaracka.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.DodadiRezervacija.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.Isporaka.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.NajavaKelner.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.NajavaMenadzer.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.NajavaSanker.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.Pocetna.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.PocetnaKelner.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.PocetnaMenadzer.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.PocetnaSanker.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.Properties.Resources.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.RabotiNaDen.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.VnesiLozinkaKelner.resources
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.csproj.GenerateResource.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.csproj.CoreCompileInputs.cache
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.exe
+C:\Users\Bojan\Dropbox\My PC (DESKTOP-HM9G9A7)\Desktop\cicino\bar.io\obj\Debug\bar.io.pdb
