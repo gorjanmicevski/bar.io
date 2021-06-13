@@ -133,8 +133,8 @@
 
 ### Изглед на формите за работа на шанкерот
 
-<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_sanker.jpg" width=600 height=500> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/isporacaj_naracka.jpg" width=350 height=250>
-
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_sanker.jpg" width=600 height=500>
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/isporacaj_naracka.jpg" width=350 height=250>
 
 [Врати се горе](#bar.io)
 
@@ -142,8 +142,9 @@
 
 ## Информации за авторите
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Бобан Николов - 191199 - https://github.com/BobanNikolov
+- Горјан Мицевски - 191204 - https://github.com/gorjanmicevski
+- Бојан Радевски - 194009 - https://github.com/BojanRadevski
 
 [Врати се горе](#bar.io)
 
