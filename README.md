@@ -113,6 +113,27 @@
 
 ### Изглед на почетната страна
 
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna.jpg" width=600 height=400>
+
+### Изглед на најавите за менаџерот, келнерот и шанкерот
+
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/najava_menadzer.jpg" width=300 height=400> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/najava_kelner.jpg" width=300 height=400> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/najava_sanker.jpg" width=300 height=400>
+
+### Изглед на формите за работа на менаџерот
+
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_menadzer.jpg" width=300 height=400> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/izberi_den.jpg" width=300 height=300>
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/vnesi_rezervacija.jpg" width=600 height=400>
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_rezervacija.jpg" width=300 height=250>
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_artikal.jpg" width=300 height=300>
+
+### Изглед на формите за работа на келнерот
+
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_kelner.jpg" width=600 height=400> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_masa.jpg" width=300 height=250>
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_naracka.jpg" width=600 height=380> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/vnesi_lozinka.jpg" width=350 height=250>
+
+### Изглед на формите за работа на шанкерот
+
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_sanker.jpg" width=600 height=500> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/isporacaj_naracka.jpg" width=350 height=250>
 
 
 [Врати се горе](#bar.io)
