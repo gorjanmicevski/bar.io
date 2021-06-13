@@ -128,19 +128,33 @@
 
 ### Изглед на формите за работа на менаџерот
 
-<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_menadzer.jpg" width=300 height=400> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/izberi_den.jpg" width=300 height=300>
+При успешна најава на менаџерот се отвара следната форма:
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_menadzer.jpg" width=300 height=400>
+Доколку менаџерот сака да внесе нова резервација тогаш му се отвара следната форма:
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/izberi_den.jpg" width=300 height=300>
+Понатаму, се отвара формата за преглед на резервациите, нивно печатење на принтер и додавање на нова резервација:
 <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/vnesi_rezervacija.jpg" width=600 height=400>
+Ова е формата за додавање на нова резервација, соодветно со потврдување и откажување:
 <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_rezervacija.jpg" width=300 height=250>
+Доколку менаџерот се одлучил да додаде артикли на располагање во кафулето, се отвара следната форма:
 <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_artikal.jpg" width=300 height=300>
 
 ### Изглед на формите за работа на келнерот
 
-<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_kelner.jpg" width=600 height=400> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_masa.jpg" width=300 height=250>
-<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_naracka.jpg" width=600 height=380> <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/vnesi_lozinka.jpg" width=350 height=250>
+При успешна најава на келнерот се отвара следната форма:
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_kelner.jpg" width=600 height=400> 
+За келнерот да додаде нарачки, најпрвин треба да додаде маса доколку ја нема. Тоа го прави со следнава форма:
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_masa.jpg" width=300 height=250>
+За соодветната маса се вметнува нарачката со оваа форма:
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/dodadi_naracka.jpg" width=600 height=380> 
+При додавање на нарачка келнерот треба да вметне лозинка, додека пак доколку сака да избрише маса менаџерот треба да вметне лозинка. Тоа се случува на следната форма:
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/vnesi_lozinka.jpg" width=350 height=250>
 
 ### Изглед на формите за работа на шанкерот
 
+При успешна најава на шанкерот се отвара следната форма:
 <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/pocetna_sanker.jpg" width=600 height=500>
+При селектирање на нарачка и стискање на копчето испорачај нарачка се отвара следната форма:
 <img src="https://github.com/BobanNikolov/bar.io/blob/main/sliki-bar.io/isporacaj_naracka.jpg" width=350 height=250>
 
 [Врати се горе](#почеток)
