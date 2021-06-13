@@ -8,78 +8,109 @@
 
 ### Содржина
 
-- [Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
+- [Објаснување на проблем](#објаснување-на-проблем)
+- [Опис на решение](#решение)
+- [Опис на изворен код](#изворен-код)
+- [Изглед на апликацијата и упатство за користење](#изглед-и-упатство)
+- [Информации за авторите](#информации-за-авторите)
 
 ---
 
-## Description
+## Објаснување на проблем
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
-
-#### Technologies
-
-- Technology 1
-- Technology 2
-
-[Back To The Top](#read-me-template)
+Проблемот кој се решава со апликацијава е доста секојдневен. Имено, станува збор за регулирање на работата на едно кафуле. Во кафулето ја покриваме работата на менаџери, келнери и шанкери. 
+Менаџерите имаат за задача да внесуваат артикли со кои што располага кафулето, да прегледуваат дневна сметка за работата на кафулето и да регулира резервации. 
+Келнерите имаат за задача да услужуваат гости во кафулето. За да биде искуството комплетно, келнерите имаат за можност да додаваат маса која што ја служат, да уредуваат претходно додадена маса, да избришат претходно додадена маса и да извадат сметка за селектирана маса.
+Шанкерите имаат наједноставна задача. Едноставно, тие треба да гледаат нарачани артикли од страна на келнерите и да ги потврдуваат како испорачани.
 
 ---
 
-## How To Use
+## Решение
 
-#### Installation
+За да се реши проблемот, користиме голем број на класи и форми со кои што ја регулираме функционалноста на системот. Користиме класи за секоја засегната страна и соодветно за нивно поврзување. Во продолжение ќе бидат детално објаснети истите. За полесно и поефективно снаоѓање при кодирање на апликацијата користевме FACTORY DESIGN PATTERN.
 
+### Менаџер
 
+Во класата за менаџер се чуваат податоци за името на менаџерот, неговото корисничко име за најава и автоматски генерираната лозинка за најава во системот.
 
-#### API Reference
+### Келнер
 
-```html
-    <p>dummy code</p>
+Во класата за келнер се чуваат податоци за името на келнерот, неговото корисничко име за најава и автоматски генерираната лозинка за најава во системот, како и листа од маси кои што ги служи.
+
+### Шанкер
+
+Во класата за шанкер се чуваат податоци за името на шанкерот, неговото корисничко име за најава и автоматски генерираната лозинка за најава на системот, како и листа од нарачки кои ги има добиено од келнерите.
+
+### Маса
+
+Во класата за маса се чуваат: id-то на масата, слободните места за седење на неа и нарачка која што ја има конкретната маса. Соодветно имаме toString() метод.
+
+### Нарачка
+
+Во класата за нарачка се чуваат: име на кое што се води нарачката, податок дали е активна или не и речник во кој што клуч е артикал, а вредности се количината колку артикли биле порачани. Соодветно имаме toString() метод и update функција на порачаните артикли која што се повикува при секоја промена на нарачани/испорачани артикли.
+
+### Артикал
+
+Во класата за артикал се чуваат податоци за името на артиклот и цената на истиот. Соодветно имаме toString() метод.
+
+### Резервација
+
+Во класата за резервација се чува името на кое што се води резервацијата и маса која е резервирана. Соодветно имаме toString() метод.
+
+### Корисници 
+
+Во класата за корисници се чуваат листи од сите корисници. Соодветно имаме листа од менаџери кои работат во кафулето, листа од келнери и листа од шанкери. Во оваа класа имаме get-ери и функции за проверка на лозинката.
+
+### Локал
+
+Во класата за локалот се чуваат сите ресурси со кои располага кафулето. Овде имаме 3 речници, и тоа: речник за резервации, во кои што за секој различен ден се чува листа од резервации; речник за слободни маси, во кои што за секој различен ден се чува листа од слободни маси; речник за артикли со кои располага кафулето, во кои што за секој артикал имаме количина за тоа колку артикли има во кафулето.
+
+Понатаму решението се сведува на повеќе форми, каде секоја си има своја функционалност и во која што се користат голем број на функции и помошни променливи за да се добие посакуваниот ефект. 
+
+---
+
+## Изворен код
+
+```csharp
+    public class Lokal
+    {
+        public static Dictionary<string, List<Rezervacija>> Reservations { set; get; }
+        public static Dictionary<string, List<Masa>> AvailableTables { get; set; }
+        //(10) { new Sanker("Goran"), new Sanker("Zoran"), new Sanker("Vane"), new Sanker("Ivan") };
+        public static Dictionary<Artikal, int> Artikli = new Dictionary<Artikal, int>{ {new Artikal("Coca-Cola",20),10 }, { new Artikal("Sprite", 20), 10 } , { new Artikal("Fanta", 20), 10 }, { new Artikal("Malo Makijato", 20), 10 }, { new Artikal("Golemo Makijato", 20), 0 } };
+        public Lokal()
+        {
+            Reservations = new Dictionary<string, List<Rezervacija>>();
+            AvailableTables = new Dictionary<string, List<Masa>>();
+            
+        }
+        public static List<Artikal> getArtikli()
+        {
+            List<Artikal> artikli = new List<Artikal>();
+            if (Artikli!=null)
+            {
+                foreach (var a in Artikli.Keys)
+                {
+                    artikli.Add(a);
+                }
+            }
+            return artikli;
+        }
+    }
 ```
-[Back To The Top](#read-me-template)
+
+Овде е прикажан кодот за класата Локал, во која како што кажавме погоре дека се чуваат податоци за резервации, слободни маси и артикли распоредени по речници. Поставуваме иницијални вредности во речникот за артиклите со цел да имаме ресурси со кои може да манипулираме при кодирање на апликацијата. Во продолжение имаме конструктор во кој имаме иницијализација само на речниците за резервации и слободни маси, бидејќи за артиклите имаме веќе поставено иницијални вредности. Понатаму е прикажан кодот за преземање на артикли во кој имаме помошна листа од артикли која ја полниме со артикли кои што го има во кафичот и ги праќаме онаму каде што се потребни.
 
 ---
 
-## References
-[Back To The Top](#read-me-template)
+## Изглед и упатство
+
+
 
 ---
 
-## License
-
-MIT License
-
-Copyright (c) [2017] [James Q Quick]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[Back To The Top](#read-me-template)
-
----
-
-## Author Info
+## Информации за авторите
 
 - Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
 - Website - [James Q Quick](https://jamesqquick.com)
 
-[Back To The Top](#read-me-template)
