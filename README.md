@@ -1,6 +1,14 @@
-# bar.io
+# VP - bar.io
+
+---
 
 <img align="middle" src="https://github.com/BobanNikolov/bar.io/blob/main/bar.io_logo.png" alt="bar.io logo" width="500" height="500" />
+
+---
+
+# bar.io
+
+---
 
 > Во продолжение следува документацијата за проектната задача по Визуелно Програмирање 2020/2021
 
