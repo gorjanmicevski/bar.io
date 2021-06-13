@@ -1,6 +1,6 @@
 # bar.io
 
-![Project Image](bar.io_logo.png)
+<img src="https://github.com/BobanNikolov/bar.io/blob/main/bar.io_logo.png" alt="bar.io logo" width="500" height="500" />
 
 > Во продолжение следува документацијата за проектната задача по Визуелно Програмирање 2020/2021
 
