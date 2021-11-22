@@ -19,6 +19,7 @@ namespace bar.io
         }
         private void btnDodadi_Click(object sender, EventArgs e)
         {
+            
             myMasa = new Masa(int.Parse(tbID.Text));
             DialogResult = DialogResult.OK;
         }
@@ -46,7 +47,19 @@ namespace bar.io
                 }
                 else
                 {
-                    myMasa = new Masa(int.Parse(tbID.Text), int.Parse(textBox1.Text));
+                    int id = int.Parse(tbID.Text);
+                    if (id > Lokal.tableCount || id<=0)
+                    {
+                        MessageBox.Show("Не валиден влез во првото поле!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    int n = int.Parse(textBox1.Text);
+                    if (n > 5 || n<=0)
+                    {
+                        MessageBox.Show("Не валиден влез во второто поле!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    myMasa = new Masa(id, n);
                     DialogResult = DialogResult.OK;
                 }
             }
@@ -113,6 +126,11 @@ namespace bar.io
                     //e.Cancel = false;
                 }
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -39,6 +39,7 @@ namespace bar.io
             foreach(var par in poracaniArtikli)
             {
                 strout.Append(String.Format("{0}: {1},",par.Key,par.Value));
+                strout.Append("\n");
             }
             return strout.ToString();
         }

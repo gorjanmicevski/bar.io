@@ -18,15 +18,11 @@ namespace bar.io
             this.menadzeri = menadzeri;
             InitializeComponent();
         }
-        private void tbPassword_TextChanged(object sender, EventArgs e)
-        {
-            tbPassword.ForeColor = SystemColors.InfoText;
-            tbPassword.PasswordChar = '*';
-        }
-        private void btnPotvrdi_Click(object sender, EventArgs e)
+ 
+        private void btnPotvrdi_Click_1(object sender, EventArgs e)
         {
             bool flag = false;
-            foreach(Menadzer m in menadzeri)
+            foreach (Menadzer m in menadzeri)
             {
                 if (tbPassword.Text.Equals(m.Password))
                 {
@@ -42,7 +38,17 @@ namespace bar.io
                 MessageBox.Show("Внесената лозинка не се совпаѓа!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            
+        }
+
+        private void tbPassword_TextChanged_1(object sender, EventArgs e)
+        {
+            tbPassword.ForeColor = SystemColors.InfoText;
+            tbPassword.PasswordChar = '*';
+        }
+
+        private void btnGoBack_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
         }
     }
 }

@@ -41,9 +41,11 @@ namespace bar.io
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnGoBack = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnNajaviSe = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnNajaviSe = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -55,17 +57,17 @@ namespace bar.io
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(147)))), ((int)(((byte)(112)))));
             this.panel1.Location = new System.Drawing.Point(-2, -3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(455, 23);
+            this.panel1.Size = new System.Drawing.Size(512, 23);
             this.panel1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 226);
+            this.label1.Location = new System.Drawing.Point(62, 240);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(400, 24);
             this.label1.TabIndex = 3;
@@ -73,11 +75,11 @@ namespace bar.io
             // 
             // tbUsername
             // 
-            this.tbUsername.BackColor = System.Drawing.SystemColors.Control;
+            this.tbUsername.BackColor = System.Drawing.Color.White;
             this.tbUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbUsername.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.tbUsername.Location = new System.Drawing.Point(170, 311);
+            this.tbUsername.Location = new System.Drawing.Point(196, 328);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(229, 20);
             this.tbUsername.TabIndex = 6;
@@ -89,11 +91,11 @@ namespace bar.io
             // 
             // tbPassword
             // 
-            this.tbPassword.BackColor = System.Drawing.SystemColors.Control;
+            this.tbPassword.BackColor = System.Drawing.Color.White;
             this.tbPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPassword.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.tbPassword.Location = new System.Drawing.Point(167, 412);
+            this.tbPassword.Location = new System.Drawing.Point(193, 429);
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.Size = new System.Drawing.Size(229, 20);
             this.tbPassword.TabIndex = 9;
@@ -106,7 +108,7 @@ namespace bar.io
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(40, 381);
+            this.pictureBox4.Location = new System.Drawing.Point(66, 398);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(80, 79);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -116,7 +118,7 @@ namespace bar.io
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(151, 381);
+            this.pictureBox5.Location = new System.Drawing.Point(177, 398);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(260, 79);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -126,7 +128,7 @@ namespace bar.io
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(40, 281);
+            this.pictureBox3.Location = new System.Drawing.Point(66, 298);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(80, 79);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -136,7 +138,7 @@ namespace bar.io
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(151, 281);
+            this.pictureBox2.Location = new System.Drawing.Point(177, 298);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(260, 79);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -145,11 +147,11 @@ namespace bar.io
             // 
             // btnGoBack
             // 
-            this.btnGoBack.BackColor = System.Drawing.SystemColors.Control;
+            this.btnGoBack.BackColor = System.Drawing.Color.White;
             this.btnGoBack.Image = ((System.Drawing.Image)(resources.GetObject("btnGoBack.Image")));
-            this.btnGoBack.Location = new System.Drawing.Point(388, 20);
+            this.btnGoBack.Location = new System.Drawing.Point(388, 37);
             this.btnGoBack.Name = "btnGoBack";
-            this.btnGoBack.Size = new System.Drawing.Size(65, 69);
+            this.btnGoBack.Size = new System.Drawing.Size(106, 101);
             this.btnGoBack.TabIndex = 2;
             this.btnGoBack.UseVisualStyleBackColor = false;
             this.btnGoBack.Click += new System.EventHandler(this.btnGoBack_Click);
@@ -157,25 +159,12 @@ namespace bar.io
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(121, 61);
+            this.pictureBox1.Location = new System.Drawing.Point(142, 62);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(220, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnNajaviSe
-            // 
-            this.btnNajaviSe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnNajaviSe.Image = ((System.Drawing.Image)(resources.GetObject("btnNajaviSe.Image")));
-            this.btnNajaviSe.Location = new System.Drawing.Point(82, 495);
-            this.btnNajaviSe.Name = "btnNajaviSe";
-            this.btnNajaviSe.Size = new System.Drawing.Size(280, 85);
-            this.btnNajaviSe.TabIndex = 10;
-            this.btnNajaviSe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnNajaviSe.UseCompatibleTextRendering = true;
-            this.btnNajaviSe.UseVisualStyleBackColor = true;
-            this.btnNajaviSe.Click += new System.EventHandler(this.btnNajaviSe_Click);
             // 
             // errorProvider1
             // 
@@ -185,12 +174,45 @@ namespace bar.io
             // 
             this.errorProvider2.ContainerControl = this;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(147)))), ((int)(((byte)(112)))));
+            this.panel2.Location = new System.Drawing.Point(-2, 16);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(26, 670);
+            this.panel2.TabIndex = 11;
+            // 
+            // btnNajaviSe
+            // 
+            this.btnNajaviSe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(184)))));
+            this.btnNajaviSe.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNajaviSe.ForeColor = System.Drawing.Color.White;
+            this.btnNajaviSe.Location = new System.Drawing.Point(112, 529);
+            this.btnNajaviSe.Name = "btnNajaviSe";
+            this.btnNajaviSe.Size = new System.Drawing.Size(309, 91);
+            this.btnNajaviSe.TabIndex = 12;
+            this.btnNajaviSe.Text = "НАЈАВИ СЕ";
+            this.btnNajaviSe.UseVisualStyleBackColor = false;
+            this.btnNajaviSe.Click += new System.EventHandler(this.btnNajaviSe_Click_1);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(147)))), ((int)(((byte)(112)))));
+            this.panel3.Location = new System.Drawing.Point(112, 615);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(309, 10);
+            this.panel3.TabIndex = 13;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
             // NajavaMenadzer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 592);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(506, 653);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnNajaviSe);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
@@ -228,8 +250,10 @@ namespace bar.io
         private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button btnNajaviSe;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.ErrorProvider errorProvider2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btnNajaviSe;
+        private System.Windows.Forms.Panel panel2;
     }
 }

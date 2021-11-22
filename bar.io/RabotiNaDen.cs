@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Collections;
 
 namespace bar.io
 {
@@ -14,7 +16,8 @@ namespace bar.io
     {
         string date;
         DateTime data;
-        
+        private StringReader myReader;
+
         public RabotiNaDen(string str,DateTime data)
         {
             date = str;
@@ -68,7 +71,6 @@ namespace bar.io
             {
                 Rezervacija r = (Rezervacija)lbRezervacii.SelectedItem;
                 Lokal.Reservations[date].Remove(r);
-                //Lokal.AvailableTables[date].Remove(m);
                 lbRezervacii.Items.Remove(r);
             }
             else
@@ -76,6 +78,57 @@ namespace bar.io
                 MessageBox.Show("Немате селектирано резервација за бришење!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+        }
+
+        private void btnPecati_Click(object sender, EventArgs e)
+        {
+                printDialog1.Document = printDocument1;
+                string strText = "";
+                 foreach (object x in lbRezervacii.Items)
+                    {
+                         strText = strText + x.ToString() + "\n";
+                    }
+            
+                     myReader = new StringReader(strText);
+                 if (printDialog1.ShowDialog() == DialogResult.OK)
+                     {
+                         this.printDocument1.Print();
+                     }
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs ev)
+        {
+            float linesPerPage = 0;
+                 float yPosition = 0;
+                 int count = 0;
+                 float leftMargin = ev.MarginBounds.Left;
+                 float topMargin = ev.MarginBounds.Top;
+                 string line = null;
+                 Font printFont = this.lbRezervacii.Font;
+                 SolidBrush myBrush = new SolidBrush(Color.Black);
+            
+      linesPerPage =ev.MarginBounds.Height / printFont.GetHeight(ev.Graphics);
+            
+      while (count < linesPerPage && ((line = myReader.ReadLine()) != null))
+                    {
+                        
+          yPosition = topMargin + (count * printFont.GetHeight(ev.Graphics));
+                
+                         
+
+                         ev.Graphics.DrawString(line, printFont,
+                                                myBrush, leftMargin,
+                                                yPosition, new StringFormat());
+                         count++;
+                     }
+            
+     
+                 if (line != null)
+                         ev.HasMorePages = true;
+                 else
+                         ev.HasMorePages = false;
+            
+            myBrush.Dispose();
         }
     }
 }

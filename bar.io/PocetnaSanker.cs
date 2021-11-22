@@ -24,16 +24,29 @@ namespace bar.io
 
         private void PocetnaSanker_Load(object sender, EventArgs e)
         {
-            foreach(Kelner k in kelneri)
-            {
-                foreach(Masa m in k.Tables)
-                {
 
-                    lbNarackiZaIsporaka.Items.Add(m.Naracka);
+            updateList();
+            
+        }
+        private void updateList()
+        {
+            lbNarackiZaIsporaka.Items.Clear();
+            lbIsporacani.Items.Clear();
+            foreach (Kelner k in kelneri)
+            {
+                foreach (Masa m in k.Tables)
+                {
+                    if (m.Naracka.poracaniArtikli.Count != 0)
+                    {
+                        if (m.Naracka.aktivna == false)
+                            lbIsporacani.Items.Add(m.Naracka);
+                        else
+                            lbNarackiZaIsporaka.Items.Add(m.Naracka);
+                    }
                 }
             }
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             if (lbNarackiZaIsporaka.SelectedIndex != -1)
@@ -45,17 +58,20 @@ namespace bar.io
                     if (lbNarackiZaIsporaka.SelectedItem != null)
                     {
                         selected.aktivna = false;
-                        lbNarackiZaIsporaka.Items.Remove(selected);
+                        updateList();
                     }
-                    //Dve opcii: koga kje se isporaca da se izvadi od lista ili da se stavi aktivna=false i da stoi..
-                    //Prva opcija lesna
-                    //Vtora opcija ne mi teknuva kako se prai refresh na lista za da se updatenat narackite i da se smeni aktivna vo false
-
-
-                    //lbNarackiZaIsporaka.Items.Add(selected);
-                    //lbNarackiZaIsporaka.Refresh();
                 }
             }
+        }
+
+        private void btnGoBack_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
+        }
+
+        private void lbNarackiZaIsporaka_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

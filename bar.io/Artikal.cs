@@ -20,5 +20,6 @@ namespace bar.io
             return String.Format("{0} ({1} денари) \n", Ime, Cena);
         }
 
+
     }
 }

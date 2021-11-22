@@ -38,6 +38,9 @@ namespace bar.io
            
         }
 
-
+        private void btnGoBack_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.Cancel;
+        }
     }
 }

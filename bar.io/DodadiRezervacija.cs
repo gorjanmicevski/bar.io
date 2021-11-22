@@ -37,7 +37,7 @@ namespace bar.io
         {
             if (tbIme.Text.Length == 0 || cbMasa.SelectedItem==null)
             {
-                MessageBox.Show("Не ви е целосно пополнета пријавата", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Не Ви е целосно пополнета пријавата", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else

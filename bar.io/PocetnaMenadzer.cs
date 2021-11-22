@@ -24,17 +24,6 @@ namespace bar.io
             label2.Text = String.Format("Добредојдовте {0}!", menadzer.Name);
         }
 
-        private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
-        {
-            DateTime data = monthCalendar1.SelectionRange.Start;
-            string date = monthCalendar1.SelectionRange.Start.ToShortDateString();
-            RabotiNaDen forma = new RabotiNaDen(date,data);
-            if (forma.ShowDialog() == DialogResult.OK)
-            {
-
-            }
-        }
-
         private void btnGoBack_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
@@ -48,5 +37,15 @@ namespace bar.io
                 Lokal.Artikli.Add(form.myArtikal,form.kolicina);
             }
         }
+
+        private void btnVnesiRezervacija_Click(object sender, EventArgs e)
+        {
+            IzberiDen forma = new IzberiDen(menadzer);
+            if(forma.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+        }
+
     }
 }

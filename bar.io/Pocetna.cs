@@ -48,9 +48,10 @@ namespace bar.io
             {
                 
                 PocetnaKelner forma1 = new PocetnaKelner(forma.k);
-                //Smeniv tuka od OK vo Cancel 
                 if (forma1.ShowDialog() == DialogResult.Cancel)
                 {
+                    Kelner k = forma1.kelner;
+                    if(!kelneri.Contains(k))
                     kelneri.Add(forma1.kelner);
                 }
             }
@@ -72,7 +73,7 @@ namespace bar.io
                 }
                 else
                 {
-                    MessageBox.Show("Не успешно е најавен шанкерот,пробај пак!", "Грешка при најава", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Неуспешно е најавен шанкерот, пробај пак!", "Грешка при најава", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
             }

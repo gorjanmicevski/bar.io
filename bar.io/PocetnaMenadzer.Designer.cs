@@ -32,10 +32,13 @@ namespace bar.io
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PocetnaMenadzer));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.btnDodadiArtikli = new System.Windows.Forms.Button();
+            this.btnVnesiRezervacija = new System.Windows.Forms.Button();
             this.btnGoBack = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -52,60 +55,94 @@ namespace bar.io
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(26, 114);
+            this.label2.Location = new System.Drawing.Point(65, 125);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 29);
+            this.label2.Size = new System.Drawing.Size(199, 29);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Изберете ден";
+            this.label2.Text = "Добредојдовте";
             // 
-            // monthCalendar1
+            // btnDodadiArtikli
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(50, 209);
-            this.monthCalendar1.MaxSelectionCount = 1;
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 2;
-            this.monthCalendar1.DateSelected += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateSelected);
+            this.btnDodadiArtikli.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(184)))));
+            this.btnDodadiArtikli.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDodadiArtikli.ForeColor = System.Drawing.Color.White;
+            this.btnDodadiArtikli.Location = new System.Drawing.Point(87, 377);
+            this.btnDodadiArtikli.Name = "btnDodadiArtikli";
+            this.btnDodadiArtikli.Size = new System.Drawing.Size(309, 104);
+            this.btnDodadiArtikli.TabIndex = 5;
+            this.btnDodadiArtikli.Text = "ДОДАДИ АРТИКЛИ";
+            this.btnDodadiArtikli.UseVisualStyleBackColor = false;
+            this.btnDodadiArtikli.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnVnesiRezervacija
+            // 
+            this.btnVnesiRezervacija.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(184)))));
+            this.btnVnesiRezervacija.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVnesiRezervacija.ForeColor = System.Drawing.Color.White;
+            this.btnVnesiRezervacija.Location = new System.Drawing.Point(87, 222);
+            this.btnVnesiRezervacija.Name = "btnVnesiRezervacija";
+            this.btnVnesiRezervacija.Size = new System.Drawing.Size(309, 104);
+            this.btnVnesiRezervacija.TabIndex = 7;
+            this.btnVnesiRezervacija.Text = "ВНЕСИ РЕЗЕРВАЦИЈА";
+            this.btnVnesiRezervacija.UseVisualStyleBackColor = false;
+            this.btnVnesiRezervacija.Click += new System.EventHandler(this.btnVnesiRezervacija_Click);
             // 
             // btnGoBack
             // 
-            this.btnGoBack.BackColor = System.Drawing.SystemColors.Control;
+            this.btnGoBack.BackColor = System.Drawing.Color.White;
             this.btnGoBack.Image = ((System.Drawing.Image)(resources.GetObject("btnGoBack.Image")));
-            this.btnGoBack.Location = new System.Drawing.Point(272, 12);
+            this.btnGoBack.Location = new System.Drawing.Point(365, 31);
             this.btnGoBack.Name = "btnGoBack";
             this.btnGoBack.Size = new System.Drawing.Size(90, 92);
             this.btnGoBack.TabIndex = 3;
             this.btnGoBack.UseVisualStyleBackColor = false;
             this.btnGoBack.Click += new System.EventHandler(this.btnGoBack_Click);
             // 
-            // label3
+            // panel1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(45, 171);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(187, 29);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Изберете ден";
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(147)))), ((int)(((byte)(112)))));
+            this.panel1.Location = new System.Drawing.Point(-1, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(512, 23);
+            this.panel1.TabIndex = 8;
             // 
-            // button1
+            // panel2
             // 
-            this.button1.Location = new System.Drawing.Point(98, 443);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 53);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Додади артикли";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(147)))), ((int)(((byte)(112)))));
+            this.panel2.Location = new System.Drawing.Point(0, 22);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(26, 614);
+            this.panel2.TabIndex = 12;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(147)))), ((int)(((byte)(112)))));
+            this.panel4.Location = new System.Drawing.Point(87, 319);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(309, 10);
+            this.panel4.TabIndex = 14;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(147)))), ((int)(((byte)(112)))));
+            this.panel6.Location = new System.Drawing.Point(87, 471);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(309, 10);
+            this.panel6.TabIndex = 16;
             // 
             // PocetnaMenadzer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 548);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(467, 536);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnVnesiRezervacija);
+            this.Controls.Add(this.btnDodadiArtikli);
             this.Controls.Add(this.btnGoBack);
-            this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -121,9 +158,12 @@ namespace bar.io
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.Button btnGoBack;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDodadiArtikli;
+        private System.Windows.Forms.Button btnVnesiRezervacija;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel6;
     }
 }

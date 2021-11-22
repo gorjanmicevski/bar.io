@@ -92,27 +92,7 @@ namespace bar.io
 
         private void btnNajaviSe_Click_1(object sender, EventArgs e)
         {
-            //DialogResult = DialogResult.Cancel;
-            if ((tbUsername.Text.Trim().Length == 0 || tbPassword.Text.Trim().Length == 0) || (tbUsername.Text.Equals("Внесете корисничко име") || (tbPassword.Text.Equals("Внесете лозиинка"))))
-            {
-                MessageBox.Show("Не ви е целосно пополнета пријавата!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            else
-            {
-                if (!Korisnici.checkUsernameSanker(tbUsername.Text) || !Korisnici.checkPasswordSanker(tbPassword.Text))
-                {
-                    MessageBox.Show("Не валидна најава!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-                else
-                {
-                    sanker = new Sanker(tbUsername.Text, tbPassword.Text);
-                    DialogResult = DialogResult.OK;
-                    
-
-                }
-            }
+            
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -150,8 +130,7 @@ namespace bar.io
             else
             {
 
-                errorProvider1.SetError(tbUsername, "Не валидна лозинка!");
-                //e.Cancel = true;
+                errorProvider1.SetError(tbUsername, "Невалидна лозинка!");
             }
         }
 
@@ -166,7 +145,7 @@ namespace bar.io
             else
             {
 
-                errorProvider1.SetError(tbPassword, "Не валидна лозинка!");
+                errorProvider1.SetError(tbPassword, "Невалидна лозинка!");
                 //e.Cancel = true;
             }
         }
@@ -180,6 +159,30 @@ namespace bar.io
         {
             tbPassword.ForeColor = SystemColors.InfoText;
             tbPassword.PasswordChar = '*';
+        }
+
+        private void btnNajaviSe_Click_2(object sender, EventArgs e)
+        {
+            if ((tbUsername.Text.Trim().Length == 0 || tbPassword.Text.Trim().Length == 0) || (tbUsername.Text.Equals("Внесете корисничко име") || (tbPassword.Text.Equals("Внесете лозиинка"))))
+            {
+                MessageBox.Show("Не Ви е целосно пополнета пријавата!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                if (!Korisnici.checkUsernameSanker(tbUsername.Text) || !Korisnici.checkPasswordSanker(tbPassword.Text))
+                {
+                    MessageBox.Show("Невалидна најава!", "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                else
+                {
+                    sanker = new Sanker(tbUsername.Text, tbPassword.Text);
+                    DialogResult = DialogResult.OK;
+
+
+                }
+            }
         }
     }
 }
